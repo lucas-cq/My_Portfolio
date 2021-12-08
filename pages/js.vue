@@ -1,11 +1,9 @@
 <template>
-  <Navigation />
+  
 </template>
 
 <style>
-body {
-  margin: 0px auto;
-}
+
 </style>
 
 <script>
