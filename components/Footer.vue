@@ -30,8 +30,7 @@
     background-color: #FF5D73;
     font-family: 'Rubik', sans-serif;
     color: white;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 2rem 5rem 1rem 5rem;
   }
   
   .foo-box {
