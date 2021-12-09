@@ -1,5 +1,8 @@
 <template>
-  <Navigation />
+  <div>
+    <Navigation />
+    <Footer />
+  </div>
 </template>
 
 <style>
