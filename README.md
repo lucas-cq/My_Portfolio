@@ -1,5 +1,5 @@
 # Lucas Wrote This
-### A portfolio website displaying my skills as a new web developer.
+### An amalgamation of my favorite web dev skills
 
 ## Repo & Netlify
 * []()
