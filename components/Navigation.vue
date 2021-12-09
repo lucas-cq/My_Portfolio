@@ -8,12 +8,36 @@
         <path class="main-logo" d="M109 18.0927C44.5776 48.5179 0 114.11 0 190.12C0 266.13 44.5776 331.722 109 362.147V18.0927Z" fill="#FF5D73"/>
         </svg></NuxtLink>
         </div>
+        <li><NuxtLink class="nav-text desktop-nav" to="css">CSS</NuxtLink></li>
+        <li><NuxtLink class="nav-text desktop-nav" to="js">JS</NuxtLink></li>
+        <li><NuxtLink class="nav-text desktop-nav" to="api">API</NuxtLink></li>
+      </ul>
+        <p class="contact-button desktop-nav"><NuxtLink class="nav-text desktop-nav" to="contact">Contact</NuxtLink></p>
+    </nav>
+      <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <nav class="mobile-nav">
+      <ul>
         <li><NuxtLink class="nav-text" to="css">CSS</NuxtLink></li>
         <li><NuxtLink class="nav-text" to="js">JS</NuxtLink></li>
         <li><NuxtLink class="nav-text" to="api">API</NuxtLink></li>
+        <li><NuxtLink class="nav-text" to="contact">Contact</NuxtLink></li>
       </ul>
-        <p class="contact-button"><NuxtLink class="nav-text" to="contact">Contact</NuxtLink></p>
     </nav>
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const mobileNav = document.querySelector('.mobile-nav');
+
+      const openNav = function () {
+        hamburger.classList.toggle('open');
+        mobileNav.classList.toggle('open');
+      }
+
+      hamburger.addEventListener('click', openNav);
+    </script>
   </header>
 </template>
 
@@ -70,9 +94,64 @@
     background-color: #ff3d58;
     transition: 0.5s;
   }
+
+    /* ********** */
+  /* Mobile Nav */
+  /* ********** */
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 40px;
+    height: 8px;
+    margin: 8px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #FF5D73;
+  }
+
+  @media screen and (max-width: 937px) {
+    .desktop-nav {
+      display: none;
+    }
+
+    .hamburger {
+      display: block;
+      margin-top: 30px;
+    }
+
+    .hamburger.open .bar:nth-child(2){
+      opacity: 0;
+    }
+
+    .hamburger.open .bar:nth-child(1){
+      transform: translateY(25px) rotate(45deg);
+    }
+
+    .hamburger.open .bar:nth-child(3){
+      transform: translateY(-6.5px) rotate(-45deg);
+    }
+
+    .mobile-nav{
+      display: none;
+    }
+
+    .mobile-nav.open {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
+      background-color: #7C7A7A;
+    }
+  }
   
 </style>
-
-<script>
-
-</script>
