@@ -19,7 +19,7 @@
         </div>
         <p v-show="!mobile" class="contact-button desktop-nav"><NuxtLink class="nav-text desktop-nav" to="contact">Contact</NuxtLink></p>
     </nav>
-    <nav v-show="mobileNav" class="mobile-nav" :class="{'mobile-nav open' : toggleMobileNav }">
+    <nav v-show="mobileNav" class="mobile-nav open" :class="{'mobile-nav open' : toggleMobileNav }">
       <ul>
         <li><NuxtLink class="nav-text" to="css">CSS</NuxtLink></li>
         <li><NuxtLink class="nav-text" to="js">JS</NuxtLink></li>
@@ -84,6 +84,7 @@ export default {
   .nav-text {
     text-decoration: none;
     color: white;
+    transition: 0.5s;
   }
 
   header {
@@ -106,24 +107,18 @@ export default {
     font-size: 27px;
     background-color: #FF5D73;
     border-radius: 10px;
-    padding: 5px;
+    padding: 5px 8px 5px 8px;
     filter: drop-shadow(0px 1px 2px #323235);
     transition: 0.5s;
   }
 
   .contact-button:hover {
     background-color: #ff3d58;
-    transition: 0.5s;
   }
 
   /* ********** */
   /* Mobile Nav */
   /* ********** */
-
-  .mobile-nav {
-    display: none;
-    transition: 1s ease all;
-  }
 
   .hamburger {
     display: none;
@@ -167,14 +162,20 @@ export default {
       transform: translateY(-7.5px) rotate(-45deg);
     }
 
-    .mobile-nav.open {
+    .mobile-nav {
       position: fixed;
+      display: block;
+      left: 100%;
+      width: 100%;
+      background-color: #7C7A7A;
+      margin-bottom: 20px;
+    }
+
+    .mobile-nav.open {
       display: flex;
       flex-direction: column;
       text-align: center;
-      width: 100%;
-      margin-bottom: 20px;
-      background-color: #7C7A7A;
+      left: 0;
     }
 
     .mobile-nav.open ul {
