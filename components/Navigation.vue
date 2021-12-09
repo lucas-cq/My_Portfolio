@@ -48,7 +48,7 @@
 
   .main-logo {
     width: 70px;
-    filter: drop-shadow(0px 1.5px 2px #212124);
+    filter: drop-shadow(0px 1px 2px #323235);
     transition: 0.5s;
   }
 
@@ -62,7 +62,7 @@
     background-color: #FF5D73;
     border-radius: 10px;
     padding: 5px;
-    filter: drop-shadow(0px 1.5px 1px #212124);
+    filter: drop-shadow(0px 1px 2px #323235);
     transition: 0.5s;
   }
 

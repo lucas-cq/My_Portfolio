@@ -1,5 +1,5 @@
 <template>
-  
+  <Navigation />
 </template>
 
 <style>
