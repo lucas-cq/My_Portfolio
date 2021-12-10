@@ -4,7 +4,7 @@
   <main>
     <section class="hero-section">
       <div class="hero-text">
-        <h1><span class="lucas-text">Lucas</span> Wrote <br>This</h1>
+        <h1><span class="lucas-text">Lucas</span> Wrote This</h1>
         <p>A modern website built by a web<br> developer at SAIT</p>
       </div>
       <svg class="main-logo" width="420" height="420" viewBox="0 0 380 380" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,6 +46,7 @@ body {
   font-size: 70px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin-bottom: 5px;
+  width: 11ch;
 }
 
 .main-logo {
@@ -91,6 +92,6 @@ body {
 
 <script>
 export default {
-  
+
 }
 </script>
