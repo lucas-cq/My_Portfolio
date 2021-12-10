@@ -1,4 +1,4 @@
-# Lucas Wrote This
+# My Portfolio Website
 ### An amalgamation of my favorite web dev skills
 
 ## Repo & Netlify
