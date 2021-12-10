@@ -163,9 +163,8 @@ export default {
     }
 
     .mobile-nav {
-      position: fixed;
       display: block;
-      left: 100%;
+      position: relative;
       width: 100%;
       background-color: #7C7A7A;
       margin-bottom: 20px;
@@ -175,7 +174,6 @@ export default {
       display: flex;
       flex-direction: column;
       text-align: center;
-      left: 0;
     }
 
     .mobile-nav.open ul {
@@ -191,6 +189,7 @@ export default {
 
     .nav-box {
       margin: 0 auto;
+      position: sticky;
     }
 
     .nav-flex {
