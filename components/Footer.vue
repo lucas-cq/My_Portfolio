@@ -17,7 +17,7 @@
       <ul>
         <h3>Get In Touch</h3>
         <li><a class="foo-text" href="mailto:lucas.cummings024@gmail.com" target="_blank">Email</a></li>
-        <li><a class="foo-text" href="" target="_blank">587 123-4567</a></li>
+        <li><a class="foo-text" href="" target="_blank">587-123-4567</a></li>
         <li><a class="foo-text" href="" target="_blank"></a></li>
       </ul>
       </div>

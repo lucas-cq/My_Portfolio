@@ -9,8 +9,8 @@
         </svg></NuxtLink>
         </div>
         <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" to="css">CSS</NuxtLink></li>
-        <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" to="js">JS</NuxtLink></li>
         <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" to="api">API</NuxtLink></li>
+        <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" to="js">About</NuxtLink></li>
       </ul>
         <div @click="toggleMobileNav" v-show="mobile" class="hamburger" :class="{'hamburger open' : mobileNav}">
           <span class="bar"></span>
@@ -22,8 +22,8 @@
     <nav v-show="mobileNav" class="mobile-nav open" :class="{'mobile-nav open' : toggleMobileNav }">
       <ul>
         <li><NuxtLink class="nav-text" to="css">CSS</NuxtLink></li>
-        <li><NuxtLink class="nav-text" to="js">JS</NuxtLink></li>
         <li><NuxtLink class="nav-text" to="api">API</NuxtLink></li>
+        <li><NuxtLink class="nav-text" to="js">About</NuxtLink></li>
         <li><NuxtLink class="nav-text" to="contact">Contact</NuxtLink></li>
       </ul>
     </nav>
