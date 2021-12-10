@@ -13,7 +13,13 @@
       </svg>
     </section>
     <section class="about-section">
-      <h2 class="hero-text">A Bit About Me</h2>
+      <article>
+        <h2 class="hero-text">A Bit About Me</h2>
+        <p>I am a Web Developer that graduated from SAIT. I enjoy designing modern websites that are pleasing to the eye.</p>
+        <p>I love working with CSS but building websites with JavaScript and modern Frameworks is my forte. I have experience with API's  and I look forward to working in the web dev industry.</p>
+        <p>Take a look at my skills with this website!</p>
+      </article>
+      <nuxt-img class="profile-pic" src="assets/images/profilepic.jpg" />
     </section>
   </main>
   <Footer />
@@ -38,12 +44,12 @@ body {
 
 .hero-text h1{
   font-size: 70px;
-  filter: drop-shadow(1.2px 1px 0px #323235);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin-bottom: 5px;
 }
 
 .main-logo {
-  filter: drop-shadow(1.2px 1px 0px #323235);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   padding: 1px;
 }
 
@@ -51,16 +57,36 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 2rem;
+  margin: 5rem 0px 8rem 0px;
 }
 
 .about-section {
   background-color: #494949;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+
+.about-section p {
+  font-size: 24px;
+  max-width: 40ch;
+  line-height: 28px;
 }
 
 .about-section h2 {
-  font-size: 50px
+  font-size: 50px;
 }
+
+.profile-pic {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 33px;
+  margin: 5rem;
+}
+
 </style>
 
 <script>
