@@ -57,6 +57,7 @@ export default {
 .instagram-output figure{
   background-color: #FF5D73;
   border-radius: 15px;
+  padding: 25px;
 }
 
 figure img {
@@ -65,12 +66,12 @@ figure img {
 }
 
 .caption {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
 }
 
 .handle {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 </style>
