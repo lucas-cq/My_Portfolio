@@ -13,23 +13,29 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'instagram',
+  
+  methods: {
+    instagramApi() { 
+    const response = await fetch('/.netlify/functions/instagram_api')
+    const data = await response.json()
+    const insta = data.find((item) => item.caption.includes('#coding'))
+    const displayPost = document.querySelector('.instagram-output') 
+    displayPost.innerHTML = `
+    <figure>
+    <img src='${insta.url}' alt="My post from instagram">
+    <p>${insta.caption.replace('#coding', '')}</p>
+    </figure>
+    ` 
+    console.log(data)
+    }
+  }
+}
+</script>
+
 <style>
 
 </style>
 
-<script >
-  const instagramApi = async () => { 
-  const response = await fetch('/.netlify/functions/instagram_api')
-  const data = await response.json()
-  const insta = data.find((item) => item.caption.includes('#coding'))
-  const displayPost = document.querySelector('.instagram-output') 
-   displayPost.innerHTML = `
-   <figure>
-   <img src='${insta.url}' alt="My post from instagram">
-   <p>${insta.caption.replace('#coding', '')}</p>
-   </figure>
-  ` 
-  console.log(data)
-  } 
-await instagramApi() // Runs the API function on html
-</script>
