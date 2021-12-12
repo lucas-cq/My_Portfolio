@@ -38,5 +38,11 @@ export default {
 
 <style>
 
+.instagram-output {
+  display: flex;
+  justify-content: center;
+  background-color: #494949;
+}
+
 </style>
 
