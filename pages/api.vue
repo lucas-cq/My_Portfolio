@@ -58,6 +58,7 @@ export default {
   background-color: #FF5D73;
   border-radius: 15px;
   padding: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 figure img {
@@ -73,6 +74,8 @@ figure img {
 .handle {
   font-size: 20px;
   color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 </style>
 
