@@ -17,7 +17,7 @@
 
 </style>
 
-<script>
+<script defer>
   const instagramApi = async () => { 
   const response = await fetch('/.netlify/functions/instagram_api')
   const data = await response.json()
