@@ -14,11 +14,7 @@
 </template>
 
 <script>
-export default {
-  name: 'instagram',
-  
-  methods: {
-    instagramApi() { 
+    const instagramApi = async () => { 
     const response = await fetch('/.netlify/functions/instagram_api')
     const data = await response.json()
     const insta = data.find((item) => item.caption.includes('#coding'))
@@ -30,7 +26,12 @@ export default {
     </figure>
     ` 
     console.log(data)
-    }
+  }
+export default {
+  name: 'instagram',
+
+  mounted() {
+    instagramApi()
   }
 }
 </script>
