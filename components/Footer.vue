@@ -3,9 +3,9 @@
     <div class="foo-box">
       <h2>Lucas <br>Cummings</h2>
       <ul class="second-nav">
-        <li><NuxtLink class="foo-text" to="css">CSS</NuxtLink></li>
-        <li><NuxtLink class="foo-text" to="js">JS</NuxtLink></li>
-        <li><NuxtLink class="foo-text" to="api">API</NuxtLink></li>
+        <li><NuxtLink class="foo-text" :to="{ path: '/css' }">CSS</NuxtLink></li>
+        <li><NuxtLink class="foo-text" :to="{ path: '/js' }">About</NuxtLink></li>
+        <li><NuxtLink class="foo-text" :to="{ path: '/api' }">API</NuxtLink></li>
       </ul>
       <ul>
         <h3>Follow Me</h3>
