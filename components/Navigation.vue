@@ -22,7 +22,7 @@
     <nav v-show="mobileNav" class="mobile-nav open" :class="{'mobile-nav open' : toggleMobileNav }">
       <ul>
         <li><NuxtLink class="nav-text" :to="{ path: '/css' }">CSS</NuxtLink></li>
-        <li><NuxtLink class="nav-text" :to="{ path: '/api' }">API</NuxtLink></li>
+        <li><NuxtLink class="nav-text" :to="{ path: '/api/' }">API</NuxtLink></li>
         <li><NuxtLink class="nav-text" :to="{ path: '/js' }">About</NuxtLink></li>
         <li><NuxtLink class="nav-text" :to="{ path: '/contact' }">Contact</NuxtLink></li>
       </ul>
