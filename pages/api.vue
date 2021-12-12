@@ -54,6 +54,16 @@ export default {
   text-align: center;
 }
 
+.instagram-output figure{
+  background-color: #FF5D73;
+  border-radius: 15px;
+}
+
+figure img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
 .caption {
   font-size: 20px;
   color: white;
