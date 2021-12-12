@@ -20,6 +20,7 @@
     const insta = data.find((item) => item.caption.includes('#coding'))
     const displayPost = document.querySelector('.instagram-output') 
     displayPost.innerHTML = `
+    <h2>Instagram API</h2>
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
     <p>${insta.caption.replace('#coding', '')}</p>
@@ -42,6 +43,12 @@ export default {
   display: flex;
   justify-content: center;
   background-color: #494949;
+}
+
+.instagram-output h2{
+  font-size: 35px;
+  color: white;
+  text-align: center;
 }
 
 </style>
