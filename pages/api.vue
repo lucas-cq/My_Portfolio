@@ -23,6 +23,7 @@
     <h2>Instagram API</h2>
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
+    <p>@lucas.nuxt</p>
     <p>${insta.caption.replace('#coding', '')}</p>
     </figure>
     ` 
@@ -49,6 +50,11 @@ export default {
   font-size: 35px;
   color: white;
   text-align: center;
+}
+
+.instagram-output p{
+  font-size: 20px;
+  color: white;
 }
 
 </style>
