@@ -24,7 +24,7 @@
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
     <p class="handle">@lucas.nuxt</p>
-    <p class="caption">${insta.caption.replace('#coding', '')}</p>
+    <p class="caption">${insta.caption.replace('/\bs\#+/ig', '')}</p>
     </figure>
     ` 
     console.log(data)
@@ -52,6 +52,7 @@ export default {
   font-size: 35px;
   color: white;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .instagram-output figure{
