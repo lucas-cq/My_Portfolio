@@ -23,8 +23,8 @@
     <h2>Instagram API</h2>
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
-    <p>@lucas.nuxt</p>
-    <p>${insta.caption.replace('#coding', '')}</p>
+    <p class="handle">@lucas.nuxt</p>
+    <p class="caption">${insta.caption.replace('#coding', '')}</p>
     </figure>
     ` 
     console.log(data)
@@ -43,7 +43,8 @@ export default {
 .instagram-output {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  flex-flow: column;
   background-color: #494949;
 }
 
@@ -53,10 +54,14 @@ export default {
   text-align: center;
 }
 
-.instagram-output p{
+.caption {
   font-size: 20px;
   color: white;
 }
 
+.handle {
+  font-size: 25px;
+  color: white;
+}
 </style>
 
