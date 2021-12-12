@@ -8,23 +8,23 @@
         <path class="main-logo" d="M109 18.0927C44.5776 48.5179 0 114.11 0 190.12C0 266.13 44.5776 331.722 109 362.147V18.0927Z" fill="#FF5D73"/>
         </svg></NuxtLink>
         </div>
-        <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" to="css">CSS</NuxtLink></li>
-        <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" to="api">API</NuxtLink></li>
-        <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" to="js">About</NuxtLink></li>
+        <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" :to="{ path: '/css' }">CSS</NuxtLink></li>
+        <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" :to="{ path: '/api' }">API</NuxtLink></li>
+        <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" :to="{ path: '/js' }">About</NuxtLink></li>
       </ul>
         <div @click="toggleMobileNav" v-show="mobile" class="hamburger" :class="{'hamburger open' : mobileNav}">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
-        <p v-show="!mobile" class="contact-button desktop-nav"><NuxtLink class="nav-text desktop-nav" to="contact">Contact</NuxtLink></p>
+        <p v-show="!mobile" class="contact-button desktop-nav"><NuxtLink class="nav-text desktop-nav" :to="{ path: '/contact' }">Contact</NuxtLink></p>
     </nav>
     <nav v-show="mobileNav" class="mobile-nav open" :class="{'mobile-nav open' : toggleMobileNav }">
       <ul>
-        <li><NuxtLink class="nav-text" to="css">CSS</NuxtLink></li>
-        <li><NuxtLink class="nav-text" to="api">API</NuxtLink></li>
-        <li><NuxtLink class="nav-text" to="js">About</NuxtLink></li>
-        <li><NuxtLink class="nav-text" to="contact">Contact</NuxtLink></li>
+        <li><NuxtLink class="nav-text" :to="{ path: '/css' }">CSS</NuxtLink></li>
+        <li><NuxtLink class="nav-text" :to="{ path: '/api' }">API</NuxtLink></li>
+        <li><NuxtLink class="nav-text" :to="{ path: '/js' }">About</NuxtLink></li>
+        <li><NuxtLink class="nav-text" :to="{ path: '/contact' }">Contact</NuxtLink></li>
       </ul>
     </nav>
   </header>
