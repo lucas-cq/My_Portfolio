@@ -24,7 +24,7 @@
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
     <p class="handle">@lucas.nuxt</p>
-    <p class="caption">${insta.caption.replace(`${insta.caption.startsWith('#')}`, '')}</p>
+    <p class="caption">${insta.caption.replace('#coding', '')}</p>
     </figure>
     ` 
     console.log(data)
