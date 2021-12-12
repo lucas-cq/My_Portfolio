@@ -24,7 +24,7 @@
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
     <p class="handle">@lucas.nuxt</p>
-    <p class="caption">${insta.caption.replace('/\bs\#+/ig', '')}</p>
+    <p class="caption">${insta.caption.replace('\#+', '')}</p>
     </figure>
     ` 
     console.log(data)
