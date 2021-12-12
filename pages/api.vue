@@ -17,7 +17,7 @@
 
 </style>
 
-<script defer>
+<script >
   const instagramApi = async () => { 
   const response = await fetch('/.netlify/functions/instagram_api')
   const data = await response.json()
@@ -31,5 +31,5 @@
   ` 
   console.log(data)
   } 
-instagramApi() // Runs the API function on html
+await instagramApi() // Runs the API function on html
 </script>
