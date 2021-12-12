@@ -43,6 +43,7 @@ export default {
 .instagram-output {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   background-color: #494949;
 }
 
