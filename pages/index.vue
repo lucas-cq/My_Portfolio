@@ -137,6 +137,7 @@ body {
     font-size: 1.3rem;
     line-height: 2.5rem;
     padding: 1rem;
+    margin-left: 5px;
   }
 
   .profile-pic {
