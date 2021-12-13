@@ -205,6 +205,13 @@
   width: 15ch;
   margin-top: 0px;
 }
+
+@media screen and (max-width: 940px) {
+  .article-section h1 {
+    font-size: 8vw;
+    padding: 15px;
+  }
+}
 </style>
 
 <script>
