@@ -3,7 +3,7 @@
     <Navigation />
       <main>
         <section class="article-section article-head">
-          <div class="hero-text2">
+          <div class="hero-text">
           <h1>How my <span class="lucas-text">Journey</span> Began</h1>
           </div>
         </section>
@@ -118,7 +118,7 @@
       margin-top: 0px;
     }
     
-    .hero-text2 h1 {
+    .hero-text h1 {
       max-width: 15ch;
     }
   }

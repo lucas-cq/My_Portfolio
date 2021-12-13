@@ -3,7 +3,7 @@
     <Navigation />
     <main>
       <section class="hero-section">
-        <div class="hero-text2">
+        <div class="hero-text3">
           <h1>Get in Touch With <span class="lucas-text">Me</span></h1>
         </div>
           <svg class="contact-logo" width="350" height="268" viewBox="0 0 350 268" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,6 +27,14 @@
 
 <style>
 
+.hero-text3 {
+  color: white;
+  font-size: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 5px;
+  width: 14ch; 
+}
+
 .contact-logo {
   filter: drop-shadow( 0px 1px 2px rgba(0, 0, 0, 0.25));
   padding: 1px;
@@ -44,6 +52,7 @@
 
 .contact-sec h2 {
   margin-bottom: 0px;
+  font-size: 55px;
 }
 
 .contact-sec ul {
@@ -59,6 +68,26 @@
 .contact-sec a {
   text-decoration: none;
   color: white;
+}
+
+@media screen and (max-width: 940px) {
+  .contact-logo {
+    display: none;
+  }
+
+  .hero-text3 {
+    text-align: center;
+    font-size: 6vw;
+  }
+
+  .contact-sec h2{
+    font-size: 45px;
+  }
+
+  .contact-sec {
+    font-size: 30px;
+    padding-bottom: 6rem;
+  }
 }
 </style>
 
