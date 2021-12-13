@@ -21,6 +21,7 @@
     const displayPost = document.querySelector('.instagram-output') 
     displayPost.innerHTML = `
     <h2>Instagram API</h2>
+    <h3>Updates everytime new post is made with a specific hashtag</h3>
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
     <p class="handle">@lucas.nuxt</p>
@@ -53,6 +54,14 @@ export default {
   color: white;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.instagram-output h3{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 30ch;
 }
 
 .instagram-output figure{
