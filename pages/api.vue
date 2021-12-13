@@ -24,7 +24,7 @@
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
     <p class="handle">@lucas.nuxt</p>
-    <p class="caption">${insta.caption.filter(!insta.caption.startsWith('#'))}</p>
+    <p class="caption">${data = insta.caption.filter(!insta.caption.startsWith('#'))}</p>
     </figure>
     ` 
     console.log(data)
