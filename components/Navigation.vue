@@ -51,7 +51,7 @@ export default {
 
     checkScreen() {
       this.windowWidth = window.innerWidth
-      if (this.windowWidth <= 937){
+      if (this.windowWidth <= 954){
         this.mobile = true
         return
       }
@@ -136,7 +136,7 @@ export default {
     background-color: #FF5D73;
   }
 
-  @media screen and (max-width: 937px) {
+  @media screen and (max-width: 954px) {
     .desktop-nav {
       display: none;
     }

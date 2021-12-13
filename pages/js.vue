@@ -69,7 +69,7 @@
   }
 
   .hero-text2 h1{
-    font-size: 70px;
+    font-size: 50px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-bottom: 5px;
     width: 14ch; 
