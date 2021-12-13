@@ -96,16 +96,16 @@ figure img {
   }
 
   .handle {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .caption {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   figure img {
-    max-width: 380px;
-    max-height: 380px;
+    max-width: 350px;
+    max-height: 350px;
   }
 }
 </style>
