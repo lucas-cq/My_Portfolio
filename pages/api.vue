@@ -24,7 +24,7 @@
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
     <p class="handle">@lucas.nuxt</p>
-    <p class="caption">${insta.caption.replace('#coding', '')}</p>
+    <p class="caption">${insta.caption.filter(caption => !caption.startsWith('#'))}</p>
     </figure>
     ` 
     console.log(data)
@@ -78,5 +78,6 @@ figure img {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 </style>
 
