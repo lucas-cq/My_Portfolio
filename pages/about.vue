@@ -2,7 +2,7 @@
   <div>
     <Navigation />
       <main>
-        <section class="hero-section">
+        <section class="article-section article-head">
           <div class="hero-text2">
           <h1>How my <span class="lucas-text">Journey</span> Began</h1>
           </div>
@@ -34,6 +34,7 @@
                 I learned basic margin and padding. Maybe some displays here and there. But this is far from my fruition.
               </p>
             </article>
+              <!--CODEPEN-->
               <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="result" data-slug-hash="PojdmdW" data-user="lucas-cq" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
               <span>See the Pen <a href="https://codepen.io/lucas-cq/pen/PojdmdW">
               First Grid</a> by Lucas Cummings (<a href="https://codepen.io/lucas-cq">@lucas-cq</a>)
@@ -90,7 +91,7 @@
   }
 
   .codepen {
-    width: 1200px;
+    width: 1000px;
   }
 
   .article-text {
@@ -106,6 +107,20 @@
   .thankyou p {
     text-align: center;
     font-size: 20px;
+  }
+
+  @media screen and (max-width: 940px) {
+    .codepen {
+      width: 420px;
+    }
+
+    .about2 h2{
+      margin-top: 0px;
+    }
+    
+    .hero-text2 h1 {
+      max-width: 15ch;
+    }
   }
 </style>
 

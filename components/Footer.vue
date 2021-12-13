@@ -4,7 +4,7 @@
       <h2>Lucas <br>Cummings</h2>
       <ul class="second-nav">
         <li><NuxtLink class="foo-text" :to="{ path: '/css' }">CSS</NuxtLink></li>
-        <li><NuxtLink class="foo-text" :to="{ path: '/js' }">About</NuxtLink></li>
+        <li><NuxtLink class="foo-text" :to="{ path: '/about' }">About</NuxtLink></li>
         <li><NuxtLink class="foo-text" :to="{ path: '/api' }">API</NuxtLink></li>
       </ul>
       <ul>
