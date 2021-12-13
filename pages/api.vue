@@ -88,5 +88,25 @@ figure img {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 940px) {
+
+  .instagram-output h3 {
+    font-size: 18px;
+    margin: 1rem;
+  }
+
+  .handle {
+    font-size: 18px;
+  }
+
+  .caption {
+    font-size: 13px;
+  }
+
+  figure img {
+    max-width: 380px;
+    max-height: 380px;
+  }
+}
 </style>
 
