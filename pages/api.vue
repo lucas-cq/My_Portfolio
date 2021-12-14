@@ -8,6 +8,9 @@
       <section class="instagram-output">
 
       </section>
+      <section class="git-output">
+
+      </section>
     </main>
     <Footer />
   </div>
@@ -29,13 +32,23 @@
     </figure>
     ` 
     console.log(data)
-    console.log(hideTags)
   }
+
+    const githubAPI = async () => {
+      const response = await fetch ('/.netlify/functions/github_api')
+      const data = await response.json()
+      const displayRepo = document.querySelector('.git-ouput')
+      displayRepo.innerHTML = `
+      <p>${data.data[0].files}</p>
+      `
+      console.log(data)
+    }
 export default {
-  name: 'instagram',
+  name: 'api',
 
   mounted() {
-    instagramApi()
+    instagramApi(),
+    githubAPI()
   }
 }
 </script>
