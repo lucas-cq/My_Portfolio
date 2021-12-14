@@ -18,14 +18,15 @@
     const response = await fetch('/.netlify/functions/instagram_api')
     const data = await response.json()
     const insta = data.find((item) => item.caption.includes('#coding'))
-    const displayPost = document.querySelector('.instagram-output') 
+    const displayPost = document.querySelector('.instagram-output')
+    const hideTags = insta.caption.replace(startsWith('#', ''))
     displayPost.innerHTML = `
     <h2>Instagram API</h2>
     <h3>Updates everytime new post is made with a specific hashtag</h3>
     <figure>
     <img src='${insta.url}' alt="My post from instagram">
     <p class="handle">@lucas.nuxt</p>
-    <p class="caption">${insta.caption.replace(startsWith('#'), '')}</p>
+    <p class="caption">${insta.caption.hideTags}</p>
     </figure>
     ` 
     console.log(data)
