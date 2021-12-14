@@ -171,6 +171,11 @@ figure img {
     max-width: 350px;
     max-height: 350px;
   }
+
+  .project-container h3 {
+    font-size: 18px;
+    margin: 1rem;
+  }
 }
 </style>
 
