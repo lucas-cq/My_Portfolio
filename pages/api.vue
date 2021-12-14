@@ -19,7 +19,8 @@
     const data = await response.json()
     const insta = data.find((item) => item.caption.includes('#coding'))
     const displayPost = document.querySelector('.instagram-output')
-    const hideTags = insta.caption.replace(startsWith('#', ''))
+    const tags = insta.caption.startsWith('#')
+    const hideTags = insta.caption.replace(tags, '')
     displayPost.innerHTML = `
     <h2>Instagram API</h2>
     <h3>Updates everytime new post is made with a specific hashtag</h3>
