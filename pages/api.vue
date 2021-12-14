@@ -39,7 +39,7 @@
       const data = await response.json()
       const displayRepo = document.querySelector('.git-ouput')
       displayRepo.innerHTML = `
-      <p>${data.data[0].files}</p>
+      <p>${data[0].files}</p>
       `
       console.log(data)
     }
