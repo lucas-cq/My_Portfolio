@@ -31,6 +31,7 @@
     </figure>
     ` 
     console.log(data)
+    console.log(hideTags)
   }
 export default {
   name: 'instagram',
