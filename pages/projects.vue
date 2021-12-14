@@ -3,13 +3,27 @@
     <Navigation />
     <main>
       <section class="article-section article-head">
-        <h1>Here are some of my <span class="lucas-text">API</span> skills</h1>
+        <h1>Here Are Some Of My Favorite <span class="lucas-text">Projects</span></h1>
       </section>
       <section class="instagram-output">
 
       </section>
-      <section class="git-output">
-
+      <section class="project-container">
+        <h2><a href="https://github.com/lucas-cq/cpnt262-a4">Command Line App</a></h2>
+          <h3>A simple command line app built with Node.js</h3>
+            <figure>
+              <nuxt-img src="assets/images/node-app-pic.png" />
+            </figure>
+        <h2><a href="https://lucas-cq.github.io/cpnt262-a3/">Random Ghibli Movie</a></h2>
+          <h3>Fetches an API and randomizes output on click</h3>
+            <figure>
+              <nuxt-img src="assets/images/random-ghibli-pic.png" />
+            </figure>
+        <h2><a href="https://cpnt262-a5-w.herokuapp.com/">My Own API</a></h2>
+          <h3>An API created in MongoDB and hosted on Heroku</h3>
+            <figure>
+              <nuxt-img src="assets/images/car-gallery.png" />
+            </figure>
       </section>
     </main>
     <Footer />
@@ -34,26 +48,61 @@
     console.log(data)
   }
 
-    const githubAPI = async () => {
-      const response = await fetch ('/.netlify/functions/github_api')
-      const data = await response.json()
-      const displayRepo = document.querySelector('.git-ouput')
-      displayRepo.innerHTML = `
-      <p>${data[0].files}</p>
-      `
-      console.log(data)
-    }
+   const githubApi = async () => {
+
+   }
 export default {
   name: 'api',
 
   mounted() {
     instagramApi(),
-    githubAPI()
+    githubApi()
   }
 }
 </script>
 
 <style>
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #494949;
+}
+
+.project-container h2 {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 0px;
+}
+
+.project-container a:hover {
+  color: #ff3a54;
+}
+
+.project-container figure {
+  background-color: #FF5D73;
+  border-radius: 15px;
+  padding: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.project-container a {
+  text-decoration: underline;
+  color: white;
+  transition: 0.5s;
+}
+
+.project-container h3 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 30ch;
+}
 
 .instagram-output {
   display: flex;
@@ -64,10 +113,11 @@ export default {
 }
 
 .instagram-output h2{
+  text-decoration: underline;
   font-size: 35px;
   color: white;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .instagram-output h3{

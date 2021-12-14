@@ -76,6 +76,15 @@ body {
   transition: 1s infinite;
 }
 
+@keyframes lucas-logo{
+  to {
+
+  }
+  from {
+
+  }
+}
+
 .hero-section {
   display: flex;
   justify-content: space-around;
