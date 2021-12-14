@@ -19,7 +19,7 @@
     const data = await response.json()
     const insta = data.find((item) => item.caption.includes('#coding'))
     const displayPost = document.querySelector('.instagram-output')
-    const tags = insta.caption.startsWith('#')
+    const tags = insta.caption.search('#')
     const hideTags = insta.caption.replace(tags, '')
     displayPost.innerHTML = `
     <h2>Instagram API</h2>
