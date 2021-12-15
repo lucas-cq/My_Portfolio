@@ -44,6 +44,25 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'show',
+  data() {
+    return {
+      displayCode: null,
+    }
+  },
+  mounted() {
+
+  },
+  methods: {
+    toggleCode() {
+      this.displayCode = !this.displayCode
+    }
+  }
+}
+</script>
+
 <style>
 
 .show-button {
@@ -213,19 +232,3 @@
   }
 }
 </style>
-
-<script>
-export default {
-  name: 'show',
-  data() {
-    return {
-      displayCode: null,
-    }
-  },
-  methods: {
-    toggleCode() {
-      this.displayCode = !this.displayCode
-    }
-  }
-}
-</script>
