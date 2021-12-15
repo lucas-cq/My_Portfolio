@@ -204,6 +204,10 @@ export default {
       align-items: center;
       flex-wrap: wrap;
     }
+
+    .main-logo {
+      margin-left: 3rem;
+    }
   }
   
 </style>
