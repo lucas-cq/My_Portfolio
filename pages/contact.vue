@@ -2,7 +2,7 @@
   <div>
     <Navigation />
     <main>
-      <section class="hero-section">
+      <section class="hero-section3">
         <div class="hero-text3">
           <h1>Get in Touch With <span class="lucas-text">Me</span></h1>
         </div>
@@ -27,9 +27,17 @@
 
 <style>
 
+.hero-section3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem 0px 8rem 0px;
+  height: 50vh;
+}
+
 .hero-text3 {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin-bottom: 5px;
   width: 14ch; 

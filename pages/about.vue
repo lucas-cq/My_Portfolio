@@ -53,9 +53,9 @@
             </div>
             <section class="thankyou">
             <h2>A Special Thanks To</h2>
-              <p>Tony Grimes</p>
-              <p>Ashlyn Knox</p>
-              <p>My Classmates</p>
+              <p>&#128016; Tony Grimes &#128016;</p>
+              <p>&#128016; Ashlyn Knox &#128016;</p>
+              <p>&#128016; My Classmates &#128016;</p>
             </section>
         </section>
       </main>
