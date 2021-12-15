@@ -53,7 +53,16 @@ export default {
 
   mounted() {
     instagramApi();
+    this.textSlide();
+  },
+
+  methods: {
+    textSlide() {
+      const gsap = this.$gsap
+      gsap.from('.article-head', { duration: 0.8, y: '-200%', opacity: 0 })
+    }
   }
+
 }
 </script>
 

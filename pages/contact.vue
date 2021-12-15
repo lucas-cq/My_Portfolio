@@ -101,6 +101,21 @@
 
 <script>
 export default {
-  
+  name: 'contact',
+  mounted() {
+    this.textSlide();
+    this.contactText();
+  },
+
+  methods: {
+    textSlide() {
+      const gsap = this.$gsap
+      gsap.from('.hero-section3', { duration: 0.8, y: '-200%', opacity: 0 })
+    },
+    contactText() {
+      const gsap = this.$gsap
+      gsap.from('.contact-sec', { scrollTrigger: ".contact-sec", duration: 1.4, opacity: 0, scrub: true})
+    }
+  }
 }
 </script>

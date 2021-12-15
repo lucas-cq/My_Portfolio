@@ -53,9 +53,6 @@ name: 'navigation',
   mounted() {
     window.addEventListener('resize', this.checkScreen);
     this.aboutText();
-  },
-
-  beforeMount() {
     this.checkScreen();
     this.heroLogo();
   },
