@@ -48,15 +48,11 @@
     console.log(data)
   }
 
-   const githubApi = async () => {
-
-   }
 export default {
   name: 'api',
 
   mounted() {
-    instagramApi(),
-    githubApi()
+    instagramApi();
   }
 }
 </script>
@@ -178,4 +174,3 @@ figure img {
   }
 }
 </style>
-

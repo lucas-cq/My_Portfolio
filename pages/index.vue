@@ -79,7 +79,7 @@ name: 'navigation',
 
     aboutText() {
       const gsap = this.$gsap
-      gsap.from('.about-section', { scrollTrigger: ".about-section", duration: 1.3, opacity: 0, scrub: true})
+      gsap.from('.about-section', { scrollTrigger: ".about-section", duration: 1.4, opacity: 0, scrub: true})
     }
   }
 }

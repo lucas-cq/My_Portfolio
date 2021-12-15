@@ -53,12 +53,17 @@ export default {
     }
   },
   mounted() {
-
+    this.textSlide();
   },
   methods: {
     toggleCode() {
       this.displayCode = !this.displayCode
-    }
+    },
+
+    textSlide() {
+      const gsap = this.$gsap
+      gsap.from('.article-section', { duration: 1, x: '-200%', opacity: 0, ease: 'power4' })
+    },
   }
 }
 </script>
