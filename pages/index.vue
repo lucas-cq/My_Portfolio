@@ -54,9 +54,6 @@ name: 'navigation',
     window.addEventListener('resize', this.checkScreen);
     this.aboutText();
     this.checkScreen();
-  },
-
-  created() {
     this.heroLogo();
   },
 
