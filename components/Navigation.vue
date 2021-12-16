@@ -67,9 +67,14 @@ export default {
 </script>
 
 <style scoped>
+
+  .nav-flex {
+    padding-left: 0px;
+  }
+
   .nav-box {
     display: flex;
-    margin-left: 12rem;
+    margin-left: 10rem;
   }
 
   .nav-box ul {
@@ -201,6 +206,10 @@ export default {
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
+    }
+
+    .main-logo {
+      margin-left: 3rem;
     }
   }
   
