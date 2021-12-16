@@ -8,7 +8,7 @@
         <p>A modern website built by a web<br> developer at SAIT</p>
         <h2>}</h2>
       </div>
-        <svg  class="hero-logo" width="382" height="382" viewBox="0 0 382 382" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="hero-logo" width="382" height="382" viewBox="0 0 382 382" fill="none" xmlns="http://www.w3.org/2000/svg" alt="A Large Logo with Lucas Cummings initials">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M200.628 381C301.088 375.983 381 292.89 381 191.12C381 86.1196 295.934 1 191 1C180.792 1 170.772 1.80553 161 3.35652V341.477L298 261.252V323.98L200.628 381ZM191 93.0517L290 42.0259V89.904L231.308 120.154V217.618L297 179.922V226.062L234.294 262.045L234.308 262.045L233.855 262.297L231.207 263.816L231.187 263.781L191.216 286.015L191.305 263.215L191.308 263.215V93.5349L191 93.0517Z" fill="#FF5D73"/>
           <path d="M110 19.0928C45.5776 49.5179 1 115.11 1 191.12C1 267.13 45.5776 332.722 110 363.147V19.0928Z" fill="#FF5D73"/>
           <path class="path" stroke="white" stroke-width="2" fill-rule="evenodd" clip-rule="evenodd" d="M200.628 381C301.088 375.983 381 292.89 381 191.12C381 86.1196 295.934 1 191 1C180.792 1 170.772 1.80553 161 3.35652V341.477L298 261.252V323.98L200.628 381ZM191 93.0517L290 42.0259V89.904L231.308 120.154V217.618L297 179.922V226.062L234.294 262.045L234.308 262.045L233.855 262.297L231.207 263.816L231.187 263.781L191.216 286.015L191.305 263.215L191.308 263.215V93.5349L191 93.0517Z"/>
@@ -22,12 +22,12 @@
         <p>I love working with CSS but building websites with JavaScript and modern Frameworks is my forte. I have experience with API's  and I look forward to working in the web dev industry.</p>
         <p>Take a look at my skills with this website!</p>
       </article>
-      <nuxt-img class="profile-pic" src="assets/images/profilepic.jpg" />
+      <nuxt-img class="profile-pic" src="assets/images/profilepic.jpg" alt="A Headshot of Lucas Cummings" />
     </section>
     <section v-show="mobile" class="mobile-article">
       <article>
         <h2 class="mobile-text">A Bit About Me</h2>
-        <nuxt-img class="profile-pic" src="assets/images/profilepic.jpg" />
+        <nuxt-img class="profile-pic" src="assets/images/profilepic.jpg" alt="A Headshot of Lucas Cummings" />
         <p>I am a Web Developer that graduated from SAIT. I enjoy designing modern websites that are pleasing to the eye.</p>
         <p>I love working with CSS but building websites with JavaScript and modern Frameworks is my forte. I have experience with API's  and I look forward to working in the web dev industry.</p>
         <p>Take a look at my skills with this website!</p>

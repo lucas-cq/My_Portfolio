@@ -12,17 +12,17 @@
         <h2><a href="https://github.com/lucas-cq/cpnt262-a4">Command Line App</a></h2>
           <h3>A simple command line app built with Node.js</h3>
             <figure>
-              <nuxt-img src="assets/images/node-app-pic.png" />
+              <nuxt-img src="assets/images/node-app-pic.png" alt="A picture of my node command line app"/>
             </figure>
         <h2><a href="https://lucas-cq.github.io/cpnt262-a3/">Random Ghibli Movie</a></h2>
           <h3>Fetches an API and randomizes output on click</h3>
             <figure>
-              <nuxt-img src="assets/images/random-ghibli-pic.png" />
+              <nuxt-img src="assets/images/random-ghibli-pic.png" alt="A picture of my random ghibli movie generator"/>
             </figure>
         <h2><a href="https://cpnt262-a5-w.herokuapp.com/">My Own API</a></h2>
           <h3>An API created in MongoDB and hosted on Heroku</h3>
             <figure class="bottom">
-              <nuxt-img src="assets/images/car-gallery.png" />
+              <nuxt-img src="assets/images/car-gallery.png" alt="A picture of my API that I made"/>
             </figure>
       </section>
     </main>
@@ -40,7 +40,7 @@
     <h2>Instagram API</h2>
     <h3>Updates everytime new post is made with a specific hashtag</h3>
     <figure>
-    <img src='${insta.url}' alt="My post from instagram">
+    <img src='${insta.url}' alt="A post from my instagram">
     <p class="handle">@lucas.nuxt</p>
     <p class="caption">${insta.caption}</p>
     </figure>

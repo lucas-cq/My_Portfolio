@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'A Portofolio Website made with nuxt by an up and coming web developer. Check out my skills with HTML, CSS, Vue, and JavaScript' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

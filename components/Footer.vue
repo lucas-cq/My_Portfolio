@@ -10,15 +10,14 @@
       <ul>
         <h3>Follow Me</h3>
         <!--Make a twitter account-->
-        <li><a class="foo-text" href="#" target="_blank">Twitter</a></li>
+        <li><a class="foo-text" href="https://twitter.com/lucas_nuxt" target="_blank">Twitter</a></li>
         <li><a class="foo-text" href="https://www.instagram.com/lucas.nuxt/" target="_blank">Instagram</a></li>
         <li><a class="foo-text" href="https://github.com/lucas-cq" target="_blank">Github</a></li>
       </ul>
       <ul>
         <h3>Get In Touch</h3>
         <li><a class="foo-text" href="mailto:lucas.cummings024@gmail.com" target="_blank">Email</a></li>
-        <li><a class="foo-text" href="" target="_blank">587-123-4567</a></li>
-        <li><a class="foo-text" href="" target="_blank"></a></li>
+        <li class="foo-text">587-123-4567</li>
       </ul>
       </div>
       <p>This website is protected under an MIT License &copy;</p>
