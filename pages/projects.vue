@@ -52,8 +52,11 @@ export default {
   name: 'api',
 
   mounted() {
-    instagramApi();
     this.textSlide();
+  },
+
+  beforeMount() {
+    instagramApi();
   },
 
   methods: {
