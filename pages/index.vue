@@ -93,7 +93,7 @@ name: 'navigation',
   stroke-dasharray: 1300;
   stroke-dashoffset: 1300;
   animation: dash 2.5s linear forwards;
-  animation-delay: 1s;
+  animation-delay: 0.8s;
 }
 
 @keyframes dash {

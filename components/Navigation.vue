@@ -3,9 +3,11 @@
     <nav class="nav-box">
       <ul class="nav-flex">
         <div class="img-wrapper">
-        <NuxtLink to="/"><svg class="main-logo" width="80" height="80" viewBox="0 0 380 380" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path class="main-logo" fill-rule="evenodd" clip-rule="evenodd" d="M199.628 380C300.088 374.983 380 291.89 380 190.12C380 85.1196 294.934 0 190 0C179.792 0 169.772 0.805527 160 2.35652V340.477L297 260.252V322.98L199.628 380ZM190 92.0517L289 41.0259V88.904L230.308 119.154V216.618L296 178.922V225.062L233.294 261.045L233.308 261.045L232.855 261.297L230.207 262.816L230.187 262.781L190.216 285.015L190.305 262.215L190.308 262.215V92.5349L190 92.0517Z" fill="#FF5D73"/>
-        <path class="main-logo" d="M109 18.0927C44.5776 48.5179 0 114.11 0 190.12C0 266.13 44.5776 331.722 109 362.147V18.0927Z" fill="#FF5D73"/>
+        <NuxtLink to="/"><svg class="main-logo" width="80" height="80" viewBox="0 0 382 382" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M200.628 381C301.088 375.983 381 292.89 381 191.12C381 86.1196 295.934 1 191 1C180.792 1 170.772 1.80553 161 3.35652V341.477L298 261.252V323.98L200.628 381ZM191 93.0517L290 42.0259V89.904L231.308 120.154V217.618L297 179.922V226.062L234.294 262.045L234.308 262.045L233.855 262.297L231.207 263.816L231.187 263.781L191.216 286.015L191.305 263.215L191.308 263.215V93.5349L191 93.0517Z" fill="#FF5D73"/>
+          <path d="M110 19.0928C45.5776 49.5179 1 115.11 1 191.12C1 267.13 45.5776 332.722 110 363.147V19.0928Z" fill="#FF5D73"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M200.628 381C301.088 375.983 381 292.89 381 191.12C381 86.1196 295.934 1 191 1C180.792 1 170.772 1.80553 161 3.35652V341.477L298 261.252V323.98L200.628 381ZM191 93.0517L290 42.0259V89.904L231.308 120.154V217.618L297 179.922V226.062L234.294 262.045L234.308 262.045L233.855 262.297L231.207 263.816L231.187 263.781L191.216 286.015L191.305 263.215L191.308 263.215V93.5349L191 93.0517Z"/>
+          <path d="M110 19.0928C45.5776 49.5179 1 115.11 1 191.12C1 267.13 45.5776 332.722 110 363.147V19.0928Z"/>
         </svg></NuxtLink>
         </div>
         <li v-show="!mobile"><NuxtLink class="nav-text desktop-nav" :to="{ path: '/css' }">CSS</NuxtLink></li>
@@ -44,6 +46,7 @@ export default {
     window.addEventListener('resize', this.checkScreen);
     this.checkScreen();
   },
+
   methods: {
     toggleMobileNav() {
       this.mobileNav = !this.mobileNav
