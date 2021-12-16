@@ -85,7 +85,7 @@
 
   .hero-text3 {
     text-align: center;
-    font-size: 6vw;
+    font-size: 2.5rem;
   }
 
   .contact-sec h2{

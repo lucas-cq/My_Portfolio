@@ -180,18 +180,18 @@ body {
   }
 
   .hero-text h1{
-    font-size: 8vw;
+    font-size: 2.5rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-bottom: 5px;
     width: 11ch;
   }
 
   .hero-text h2 {
-    font-size: 8vw;
+    font-size: 2.5rem;
   }
 
   .hero-text p {
-    font-size: 5vw;
+    font-size: 23px;
   }
 
   .mobile-article h2 {
