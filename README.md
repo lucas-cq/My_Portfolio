@@ -3,7 +3,7 @@
 
 ## Repo & Website
 * [Repository](https://github.com/lucas-cq/cpnt265-portfolio)
-* [Netlify](lucascummingsofficial.ca)
+* [Netlify](https://www.lucascummingsofficial.ca/)
 
 ## Check out my design board
 * [Figma](https://www.figma.com/file/WWUtoZ2sJaPi6vkFSzi7FL/Final-Project-Design-Board?node-id=0%3A1)
