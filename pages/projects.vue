@@ -9,12 +9,12 @@
 
       </section>
       <section class="project-container">
-        <h2><a href="https://github.com/lucas-cq/cpnt262-a4">Command Line App</a></h2>
+        <h2><a href="https://github.com/lucas-cq/Simple-Node-App">Command Line App</a></h2>
           <h3>A simple command line app built with Node.js</h3>
             <figure>
               <nuxt-img src="assets/images/node-app-pic.png" alt="A picture of my node command line app"/>
             </figure>
-        <h2><a href="https://lucas-cq.github.io/cpnt262-a3/">Random Ghibli Movie</a></h2>
+        <h2><a href="https://github.com/lucas-cq/Random-Ghibli-Movie">Random Ghibli Movie</a></h2>
           <h3>Fetches an API and randomizes output on click</h3>
             <figure>
               <nuxt-img src="assets/images/random-ghibli-pic.png" alt="A picture of my random ghibli movie generator"/>
