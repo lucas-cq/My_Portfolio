@@ -21,7 +21,7 @@
             </figure>
         <h2><a href="https://cpnt262-a5-w.herokuapp.com/">My Own API</a></h2>
           <h3>An API created in MongoDB and hosted on Heroku</h3>
-            <figure>
+            <figure class="bottom">
               <nuxt-img src="assets/images/car-gallery.png" />
             </figure>
       </section>
@@ -155,6 +155,10 @@ figure img {
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.bottom {
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 940px) {

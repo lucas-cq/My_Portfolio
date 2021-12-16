@@ -228,6 +228,10 @@ body {
     flex-wrap: wrap;
     padding: 5rem;
   }
+
+  .hero-section {
+    margin-top: 0px;
+  }
 }
 
 </style>
