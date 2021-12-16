@@ -56,7 +56,7 @@ name: 'navigation',
     this.checkScreen();
   },
 
-  beforeMount() {
+  created() {
     this.heroLogo();
   },
 
