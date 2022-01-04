@@ -6,7 +6,6 @@
         <h1>Here Are Some Of My Favorite <span class="lucas-text">Projects</span></h1>
       </section>
       <section class="instagram-output">
-
       </section>
       <section class="project-container">
         <h2><a href="https://github.com/lucas-cq/Simple-Node-App">Command Line App</a></h2>
