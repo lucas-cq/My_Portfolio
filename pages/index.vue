@@ -56,10 +56,6 @@ name: 'navigation',
     this.checkScreen();
   },
 
-  beforeMount() {
-    this.heroLogo();
-  },
-
   methods: {
     toggleMobileNav() {
       this.mobileNav = !this.mobileNav
@@ -79,7 +75,6 @@ name: 'navigation',
     heroLogo() {
       const gsap = this.$gsap
       gsap.from('.text-move', { duration: 0.8, y: '-200%', opacity: 0 })
-      gsap.from('.hero-logo', { duration: 0.8, y: '-200%', opacity: 0 })
     },
 
     aboutText() {
