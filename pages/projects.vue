@@ -5,8 +5,6 @@
       <section class="article-section article-head">
         <h1>Here Are Some Of My Favorite <span class="lucas-text">Projects</span></h1>
       </section>
-      <section class="instagram-output">
-      </section>
       <section class="project-container">
         <h2><a href="https://github.com/lucas-cq/Simple-Node-App">Command Line App</a></h2>
           <h3>A simple command line app built with Node.js</h3>
@@ -30,32 +28,11 @@
 </template>
 
 <script>
-    const instagramApi = async () => { 
-    const response = await fetch('/.netlify/functions/instagram_api')
-    const data = await response.json()
-    const insta = data.find((item) => item.caption.includes('#coding'))
-    const displayPost = document.querySelector('.instagram-output')
-    displayPost.innerHTML = `
-    <h2>Instagram API</h2>
-    <h3>Updates everytime new post is made with a specific hashtag</h3>
-    <figure>
-    <img src='${insta.url}' alt="A post from my instagram">
-    <p class="handle">@lucas.nuxt</p>
-    <p class="caption">${insta.caption}</p>
-    </figure>
-    ` 
-    console.log(data)
-  }
-
 export default {
   name: 'api',
 
   mounted() {
     this.textSlide();
-  },
-
-  beforeMount() {
-    instagramApi();
   },
 
   methods: {
