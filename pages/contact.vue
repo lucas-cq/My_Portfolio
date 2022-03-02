@@ -114,7 +114,7 @@ export default {
     },
     contactText() {
       const gsap = this.$gsap
-      gsap.from('.contact-sec', { scrollTrigger: ".contact-sec", duration: 1.4, opacity: 0, scrub: true})
+      gsap.from('.contact-sec', { scrollTrigger: ".contact-sec", duration: 1.4, opacity: 0 })
     }
   }
 }
