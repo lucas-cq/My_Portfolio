@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects", {data:[{_img:{"/_ipx/_/assets/images/node-app-pic.png":"\u002F_nuxt\u002Fimage\u002Fde2b39.png","/_ipx/_/assets/images/random-ghibli-pic.png":"\u002F_nuxt\u002Fimage\u002F6895f7.png","/_ipx/_/assets/images/car-gallery.png":"\u002F_nuxt\u002Fimage\u002Ffa1223.png"}}],fetch:{},mutations:void 0});

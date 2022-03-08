@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="header-main">
     <nav class="nav-box">
       <ul class="nav-flex">
         <div class="img-wrapper">
@@ -68,6 +68,13 @@ export default {
 
 <style scoped>
 
+  .header-main {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+  }
+
   .nav-flex {
     padding-left: 0px;
   }
@@ -75,6 +82,7 @@ export default {
   .nav-box {
     display: flex;
     margin-left: 10rem;
+
   }
 
   .nav-box ul {
@@ -98,7 +106,6 @@ export default {
   header {
     background-color: #7C7A7A;
     font-family: 'Rubik', sans-serif;
-    position: relative;
   }
 
   .main-logo {
