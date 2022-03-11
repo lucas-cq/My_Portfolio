@@ -116,6 +116,9 @@
 
     .about2 h2{
       margin-top: 0px;
+      font-size: 2.3rem;
+      margin: 0px 2rem 2rem 2rem;
+      width: 20rem;
     }
     
     .hero-text h1 {

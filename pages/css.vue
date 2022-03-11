@@ -97,7 +97,7 @@ export default {
 .article-section {
   display: flex;
   justify-content: center;
-  margin: 8rem auto 16rem auto;
+  margin: 20rem auto 16rem auto;
 }
 
 .article-head {

@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 5rem 0px 8rem 0px;
+  margin: 12rem 0px 8rem 0px;
   height: 50vh;
 }
 

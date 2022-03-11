@@ -3,7 +3,7 @@
   <Navigation />
   <main>
     <section class="hero-section">
-      <div class="hero-text text-move">
+      <div class="hero-text-main text-move">
         <h1>lucasCummings<span class="lucas-text">() => {</span></h1>
         <p>A modern website built by a web<br> developer at SAIT</p>
         <h2>}</h2>
@@ -110,23 +110,23 @@ body {
   color: #FF5D73;
 }
 
-.hero-text {
+.hero-text-main {
   color: white;
   font-size: 25px;
 }
 
-.hero-text p {
+.hero-text-main p {
   margin-bottom: 0px;
 }
 
-.hero-text h1{
+.hero-text-main h1{
   font-size: 55px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin-bottom: 5px;
   width: 11ch;
 }
 
-.hero-text h2 {
+.hero-text-main h2 {
   margin-top: 20px;
   font-size: 50px;
   color: #FF5D73;
@@ -177,18 +177,23 @@ body {
     display: none;
   }
 
-  .hero-text h1{
+  .hero-text-main {
+    margin-top: 4rem;
+    height: 100%;
+  }
+
+  .hero-text-main h1{
     font-size: 2.5rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-bottom: 5px;
     width: 11ch;
   }
 
-  .hero-text h2 {
+  .hero-text-main h2 {
     font-size: 2.5rem;
   }
 
-  .hero-text p {
+  .hero-text-main p {
     font-size: 23px;
   }
 
@@ -204,9 +209,10 @@ body {
   }
 
   .profile-pic {
+    display: block;
     width: 22rem;
     height: 22rem;
-    margin: 2rem;
+    margin: 1rem auto 1rem auto;
   }
 
   .mobile-text {
@@ -222,13 +228,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 5rem;
   }
 
   .hero-section {
-    margin-top: 0px;
+    height: 100%;
   }
 }
 
