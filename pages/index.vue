@@ -22,12 +22,12 @@
         <p>I love working with CSS but building websites with JavaScript and modern Frameworks is my forte. I have experience with API's  and I look forward to working in the web dev industry.</p>
         <p>Take a look at my skills with this website!</p>
       </article>
-      <nuxt-img class="profile-pic" src="assets/images/profilepic.webp" alt="A Headshot of Lucas Cummings" />
+      <nuxt-img class="profile-pic" src="assets/images/lucas-compressed.webp" alt="A Headshot of Lucas Cummings" />
     </section>
     <section v-show="mobile" class="mobile-article">
       <article>
         <h2 class="mobile-text">A Bit About Me</h2>
-        <nuxt-img class="profile-pic" src="assets/images/profilepic.webp" alt="A Headshot of Lucas Cummings" />
+        <nuxt-img class="profile-pic" src="assets/images/lucas-compressed.webp" alt="A Headshot of Lucas Cummings" />
         <p>I am a Web Developer that graduated from SAIT. I enjoy designing modern websites that are pleasing to the eye.</p>
         <p>I love working with CSS but building websites with JavaScript and modern Frameworks is my forte. I have experience with API's  and I look forward to working in the web dev industry.</p>
         <p>Take a look at my skills with this website!</p>
