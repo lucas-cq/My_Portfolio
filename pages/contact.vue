@@ -12,13 +12,17 @@
           </svg>
       </section>
       <section class="contact-sec">
-        <h2>Find me on</h2>
-        <ul>
-          <li><a href="https://github.com/lucas-cq">Github</a></li>
-          <li><a href="mailto:lucas.cummings024@gmail.com">Email</a></li>
-          <li><a href="https://www.instagram.com/lucas.nuxt/">Instagram</a></li>
-          <li><a href="https://twitter.com/lucas_nuxt">Twitter</a></li>
-        </ul>
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xgerqklp" method="POST">
+            <fieldset>
+              <label><span>Name</span><input type="text" name="name" required></label>
+              <label><span>Email</span><input type="email" name="email" required></label>
+              <label><span>Phone</span><input type="phone" name="phone" required></label>
+              <label><span>Message</span><textarea name="message"></textarea></label>
+              <button type="submit">Submit</button>
+            </fieldset>
+          </form>
+        </div>
       </section>
     </main>
     <Footer />
@@ -49,33 +53,81 @@
 }
 
 .contact-sec {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  font-size: 40px;
   color: white;
   background-color: #494949;
 }
 
-.contact-sec h2 {
-  margin-bottom: 0px;
-  font-size: 55px;
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-sec ul {
-  text-align: center;
+.contact-form form {
+  width: 20rem;
+  max-width: 20rem;
+}
+
+.contact-form fieldset {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  border-style: none;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 7rem;
   padding: 5px;
+  border-radius: 6px;
+  border-style: none;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  transition: 500ms;
+  border: 2px solid #FFFFFF;
 }
 
-.contact-sec li {
-  list-style-type: none;
-  padding-bottom: 3rem;
+.contact-form label {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+  padding: 10px 5px;
+  font-size: 25px;
 }
 
-.contact-sec a {
-  text-decoration: none;
+.contact-form input {
+  height: 30px;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 6px;
+  border-style: none;
+  transition: 500ms;
+  border: 2px solid #FFFFFF;
+}
+
+.contact-form input:focus {
+  outline: 0;
+  border: 2px solid #FF5D73;
+}
+
+.contact-form span {
+  padding-bottom: 5px;
+}
+
+.contact-form button {
+  max-width: 10rem;
+  font-size: 22px;
   color: white;
+  background-color: #FF5D73;
+  border-style: none;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+
+.contact-form textarea:focus {
+  outline: 0;
+  border: 2px solid #FF5D73;
 }
 
 @media screen and (max-width: 940px) {

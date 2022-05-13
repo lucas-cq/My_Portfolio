@@ -172,6 +172,23 @@ body {
   margin: 5rem;
 }
 
+.mobile-article h2 {
+  font-size: 2rem;
+}
+
+.mobile-article p {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  padding: 1rem;
+  margin-left: 5px;
+}
+
+.mobile-article {
+  background-color: #494949;
+  color: white;
+  align-items: center;
+}
+
 @media screen and (max-width: 940px) {
   .hero-logo {
     display: none;
@@ -198,6 +215,7 @@ body {
   }
 
   .mobile-article h2 {
+    text-align: center;
     font-size: 2rem;
   }
 
