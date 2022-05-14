@@ -19,7 +19,7 @@
               <label><span>Email</span><input type="email" name="email" required></label>
               <label><span>Phone</span><input type="phone" name="phone" required></label>
               <label><span>Message</span><textarea name="message"></textarea></label>
-              <button type="submit">Submit<font-awesome-icon class="submit-arrow" :icon="['fas', 'caret-right']"/></button>
+              <button type="submit">Submit</button>
             </fieldset>
           </form>
         </div>
@@ -37,7 +37,6 @@
     <Footer />
   </div>
 </template>
-:hover path
 <style>
 
 .socials-box {

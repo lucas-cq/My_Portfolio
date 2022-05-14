@@ -35,15 +35,7 @@ export default {
     '@nuxt/image',
     '@nuxtjs/google-fonts',
     'nuxt-gsap-module',
-    '@nuxtjs/fontawesome'
   ],
-
-  fontawesome: {
-    icons:{
-     solid:true,
-     brands:true,
-    }
-  },
 
   gsap: {
     extraPlugins: {
