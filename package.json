@@ -1,6 +1,7 @@
 {
   "name": "final-project",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -8,8 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@nuxt/content": "^1.15.1",
     "@nuxt/image": "^0.6.2",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "axios": "^0.27.2",
     "core-js": "^3.22.5",
     "dotenv": "^16.0.1",
