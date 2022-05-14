@@ -23,6 +23,11 @@
             </fieldset>
           </form>
         </div>
+        <div class="socials-box">
+          <h2>You Can Find Me On</h2>
+          <div class="social-icons">
+          </div>
+        </div>
       </section>
     </main>
     <Footer />
@@ -30,6 +35,15 @@
 </template>
 
 <style>
+
+.contact-sec {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-sec h2 {
+  margin-top: 50%;
+}
 
 .hero-section3 {
   display: flex;
@@ -123,6 +137,11 @@
   padding: 8px;
   border-radius: 10px;
   margin: 10px 5px;
+  transition: 400ms;
+}
+
+.contact-form button:hover {
+  background-color: #ff3d58;
 }
 
 .contact-form textarea:focus {
