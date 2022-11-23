@@ -21,14 +21,16 @@
         </div>
         <p v-show="!mobile" class="contact-button desktop-nav"><NuxtLink class="nav-text desktop-nav" :to="{ path: '/contact' }">Contact</NuxtLink></p>
     </nav>
-    <nav v-show="mobileNav" class="mobile-nav open" :class="{'mobile-nav open' : toggleMobileNav }">
-      <ul>
-        <li><NuxtLink class="nav-text" :to="{ path: '/css' }">CSS</NuxtLink></li>
-        <li><NuxtLink class="nav-text" :to="{ path: '/projects' }">Projects</NuxtLink></li>
-        <li><NuxtLink class="nav-text" :to="{ path: '/journey' }">Journey</NuxtLink></li>
-        <li><NuxtLink class="nav-text" :to="{ path: '/contact' }">Contact</NuxtLink></li>
-      </ul>
-    </nav>
+    <Transition name="navfade">
+      <nav v-show="mobileNav" class="mobile-nav open" :class="{'mobile-nav open' : toggleMobileNav }">
+        <ul>
+          <li><NuxtLink class="nav-text" :to="{ path: '/css' }">CSS</NuxtLink></li>
+          <li><NuxtLink class="nav-text" :to="{ path: '/projects' }">Projects</NuxtLink></li>
+          <li><NuxtLink class="nav-text" :to="{ path: '/journey' }">Journey</NuxtLink></li>
+          <li><NuxtLink class="nav-text" :to="{ path: '/contact' }">Contact</NuxtLink></li>
+        </ul>
+      </nav>
+    </Transition>
   </header>
 </template>
 
@@ -67,6 +69,15 @@ export default {
 </script>
 
 <style scoped>
+  .navfade-enter-active,
+  .navfade-leave-active {
+    transition: opacity 400ms ease;
+  }
+
+  .navfade-enter,
+  .navfade-leave-to {
+    opacity: 0;
+  }
 
   .header-main {
     position: fixed;
