@@ -5,7 +5,7 @@
     <section class="hero-section">
       <div class="hero-text-main text-move">
         <h1>lucasCummings<span class="lucas-text">() => {</span></h1>
-        <p>A modern website built by a web<br> developer at SAIT</p>
+        <p>A modern website built by a web<br> developer.</p>
         <h2>}</h2>
       </div>
         <svg class="hero-logo" width="382" height="382" viewBox="0 0 382 382" fill="none" xmlns="http://www.w3.org/2000/svg" alt="A Large Logo with Lucas Cummings initials">
@@ -28,9 +28,9 @@
       <article>
         <h2 class="mobile-text">A Bit About Me</h2>
         <nuxt-img class="profile-pic" src="assets/images/lucas-compressed.webp" alt="A Headshot of Lucas Cummings" />
-        <p>I am a Web Developer that graduated from SAIT. I enjoy designing modern websites that are pleasing to the eye.</p>
-        <p>I love working with CSS but building websites with JavaScript and modern Frameworks is my forte. I have experience with API's  and I look forward to working in the web dev industry.</p>
-        <p>Take a look at my skills with this website!</p>
+        <p>As an accomplished Web Developer and alumnus of SAIT, I specialize in crafting contemporary, visually appealing websites.</p>
+        <p>While I am adept at CSS, my true proficiency lies in constructing websites using JavaScript and the latest Frameworks. With hands-on experience in working with APIs, I am eager to further my journey in the web development sector.</p>
+        <p>Explore my skill set through the lens of this website!</p>
       </article>
     </section>
   </main>
