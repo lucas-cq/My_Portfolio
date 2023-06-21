@@ -17,7 +17,7 @@
       <ul>
         <h3>Get In Touch</h3>
         <li><a class="foo-text" href="mailto:lucas.cummings024@gmail.com" target="_blank">Email</a></li>
-        <li class="foo-text"><a href="tel:5879664206">(587) 966-4206</a></li>
+        <li><a class="foo-text" href="tel:5879664206">(587) 966-4206</a></li>
       </ul>
       </div>
       <p>This website is protected under an MIT License &copy;</p>
