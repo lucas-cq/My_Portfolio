@@ -170,6 +170,8 @@ body {
   height: 25rem;
   border-radius: 33px;
   margin: 5rem;
+  object-fit: cover;
+  object-position: 50% 20%;
 }
 
 .mobile-article h2 {
